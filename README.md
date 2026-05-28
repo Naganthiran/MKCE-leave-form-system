@@ -75,4 +75,7 @@ Status Update to Student
 ## Authors
 Naganthiran S  
 Department of Electronics and Communication Engineering  
-M.Kumarasamy College of Engineering
+M.Kumarasamy College of Engineering  
+
+- Automated Deployment enabled via GitHub Actions.
+
