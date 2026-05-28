@@ -15,7 +15,7 @@ import HODDashboard from './pages/HODDashboard';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="relative min-h-screen">
         <StarBackground />
         <Routes>
