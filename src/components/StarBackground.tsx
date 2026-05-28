@@ -21,7 +21,11 @@ export default function StarBackground() {
   }, []);
 
   return (
-    <div className="stars-container">
+    <div className="stars-container relative overflow-hidden">
+      {/* Premium glowing auras in the background */}
+      <div className="absolute top-[-20%] left-[-20%] w-[65vw] h-[65vw] rounded-full bg-blue-600/8 blur-[160px] pointer-events-none aura-glow-1" />
+      <div className="absolute bottom-[-20%] right-[-20%] w-[65vw] h-[65vw] rounded-full bg-purple-600/8 blur-[160px] pointer-events-none aura-glow-2" />
+      
       {stars.map((star) => (
         <div
           key={star.id}
